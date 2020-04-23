@@ -10,7 +10,7 @@ jobs:
           POSTGRES_PASSWORD: ""
     steps:
       - checkout
-      - run: echo "Hello CircleCI!"
+      - run: echo "Hello CircleCI!!"
       - run:
           name: Wait for DB
           command: dockerize -wait tcp://localhost:5432 -timeout 1m
